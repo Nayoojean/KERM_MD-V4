@@ -1,4 +1,4 @@
-var commands = [];
+var commands = .;
 
 function cmd(info, func) {
     var data = info;
@@ -7,7 +7,7 @@ function cmd(info, func) {
     if (!info.desc) info.desc = '';
     if (!data.fromMe) data.fromMe = false;
     if (!info.category) data.category = 'misc';
-    if(!info.filename) data.filename = "Not Provided";
+    if(!info.filename) data.filename = "KOTARO";
     commands.push(data);
     return data;
 }
