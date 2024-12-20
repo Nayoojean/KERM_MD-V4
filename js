@@ -7,7 +7,7 @@ function cmd(info, func) {
     if (!info.desc) info.desc = '';
     if (!data.fromMe) data.fromMe = false;
     if (!info.category) data.category = 'misc';
-    if(!info.filename) data.filename = "KOTARO";
+    if(!info.filename) data.filename = "qE5E1SxJ#ooBHHiT0Z4c7-MNgQZdu2Ddhf6EXHUUKxziDYozdKlQ";
     commands.push(data);
     return data;
 }
